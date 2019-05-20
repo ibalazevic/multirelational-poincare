@@ -1,6 +1,8 @@
 
 ## Multi-relational Poincaré Graph Embeddings
 
+Multi-relational link prediction in the Poincaré ball model of hyperbolic space.
+
 This codebase contains PyTorch implementation of the paper:
 
 > Multi-relational Poincaré Graph Embeddings.
