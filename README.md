@@ -5,7 +5,7 @@
 Multi-relational link prediction in the Poincaré ball model of hyperbolic space.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ibalazevic/multirelational-poincare/master/murp_vs_mure.png"/ width=800>
+  <img src="https://raw.githubusercontent.com/ibalazevic/multirelational-poincare/master/murp_vs_mure.png"/ width=700>
 </p>
 
 
