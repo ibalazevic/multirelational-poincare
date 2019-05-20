@@ -1,7 +1,13 @@
 
 ## Multi-relational Poincaré Graph Embeddings
 
+
 Multi-relational link prediction in the Poincaré ball model of hyperbolic space.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ibalazevic/multirelational-poincare/master/murp_vs_mure.png"/ width=800>
+</p>
+
 
 This codebase contains PyTorch implementation of the paper:
 
