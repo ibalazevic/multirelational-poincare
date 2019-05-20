@@ -9,10 +9,17 @@ This codebase contains PyTorch implementation of the paper:
 
 ### Link Prediction Results
 
-Dataset | MRR | Hits@10 | Hits@3 | Hits@1
-:--- | :---: | :---: | :---: | :---:
-FB15k-237 | 0.358 | 0.544 | 0.394 | 0.266
-WN18RR | 0.470 | 0.526 | 0.482 | 0.443
+Model | Dataset | dim | MRR | Hits@10 | Hits@3 | Hits@1
+:--- | :--- | :---: | :---: | :---: | :---: | :---:
+MuRP | WN18RR | 40 |  0.477 | 0.555 | 0.489 | 0.438
+MuRP | WN18RR | 200 |  0.481 | 0.566 | 0.495 | 0.440
+MuRE | WN18RR | 40 |  0.459 | 0.528 | 0.474 | 0.429
+MuRE | WN18RR | 200 |  0.475 | 0.554 | 0.487 | 0.436
+MuRP | FB15k-237 | 40| 0.324 | 0.506 | 0.356 | 0.235
+MuRP | FB15k-237 | 200| 0.333 | 0.515 | 0.368 | 0.241
+MuRE | FB15k-237 | 40| 0.315 | 0.493 | 0.346 | 0.227
+MuRE | FB15k-237 | 200| 0.336 | 0.521 | 0.370 | 0.245
+
 
 ### Running a model
 
