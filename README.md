@@ -5,7 +5,7 @@
 Multi-relational link prediction in the Poincaré ball model of hyperbolic space.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ibalazevic/multirelational-poincare/master/murp_vs_mure.png"/ width=800>
+  <img src="https://raw.githubusercontent.com/ibalazevic/multirelational-poincare/master/murp_vs_mure.png"/ width=700>
 </p>
 
 
@@ -24,7 +24,7 @@ MuRP | WN18RR | 200 |  0.481 | 0.566 | 0.495 | 0.440
 MuRE | WN18RR | 40 |  0.459 | 0.528 | 0.474 | 0.429
 MuRE | WN18RR | 200 |  0.475 | 0.554 | 0.487 | 0.436
 MuRP | FB15k-237 | 40| 0.324 | 0.506 | 0.356 | 0.235
-MuRP | FB15k-237 | 200| 0.333 | 0.515 | 0.368 | 0.241
+MuRP | FB15k-237 | 200| 0.335 | 0.519 | 0.367 | 0.243
 MuRE | FB15k-237 | 40| 0.315 | 0.493 | 0.346 | 0.227
 MuRE | FB15k-237 | 200| 0.336 | 0.521 | 0.370 | 0.245
 
