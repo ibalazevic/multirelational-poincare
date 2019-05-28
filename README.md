@@ -52,3 +52,15 @@ The codebase is implemented in Python 3.6.6. Required packages are:
     numpy      1.15.1
     pytorch    1.0.1
     
+### Citation
+
+If you found this codebase useful, please cite:
+
+    @article{balazevic2019multi,
+    title={Multi-relational Poincar$\backslash$'e Graph Embeddings},
+    author={Bala{\v{z}}evi{\'c}, Ivana and Allen, Carl and Hospedales, Timothy},
+    journal={arXiv preprint arXiv:1905.09791},
+    year={2019}
+    }
+
+
