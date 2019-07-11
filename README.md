@@ -13,7 +13,8 @@ This codebase contains PyTorch implementation of the paper:
 
 > Multi-relational Poincaré Graph Embeddings.
 > Ivana Balažević, Carl Allen, and Timothy M. Hospedales.
-> arxiv link: TBD
+> arXiv preprint arXiv:1905.09791, 2019.
+> [[Paper]](https://arxiv.org/pdf/1905.09791.pdf)
 
 ### Link Prediction Results
 
@@ -24,7 +25,7 @@ MuRP | WN18RR | 200 |  0.481 | 0.566 | 0.495 | 0.440
 MuRE | WN18RR | 40 |  0.459 | 0.528 | 0.474 | 0.429
 MuRE | WN18RR | 200 |  0.475 | 0.554 | 0.487 | 0.436
 MuRP | FB15k-237 | 40| 0.324 | 0.506 | 0.356 | 0.235
-MuRP | FB15k-237 | 200| 0.335 | 0.519 | 0.367 | 0.243
+MuRP | FB15k-237 | 200| 0.335 | 0.518 | 0.367 | 0.243
 MuRE | FB15k-237 | 40| 0.315 | 0.493 | 0.346 | 0.227
 MuRE | FB15k-237 | 200| 0.336 | 0.521 | 0.370 | 0.245
 
@@ -55,5 +56,11 @@ The codebase is implemented in Python 3.6.6. Required packages are:
 
 If you found this codebase useful, please cite:
 
-TBD
+    @article{balazevic2019multi,
+    title={Multi-relational Poincar$\backslash$'e Graph Embeddings},
+    author={Bala{\v{z}}evi{\'c}, Ivana and Allen, Carl and Hospedales, Timothy},
+    journal={arXiv preprint arXiv:1905.09791},
+    year={2019}
+    }
+
 
