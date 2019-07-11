@@ -31,16 +31,6 @@ class Experiment:
             er_vocab[(triple[idxs[0]], triple[idxs[1]])].append(triple[idxs[2]])
         return er_vocab
 
-    def get_batch(self, er_vocab, er_vocab_pairs, idx):
-        batch = er_vocab_pairs[idx:idx+self.batch_size]
-        targets = np.zeros((len(batch), len(d.entities)))
-        for idx, pair in enumerate(batch):
-            targets[idx, er_vocab[pair]] = 1.
-        targets = torch.DoubleTensor(targets)
-        if self.cuda:
-            targets = targets.cuda()
-        return np.array(batch), targets
-
     def evaluate(self, model, data):
         hits = []
         ranks = []
@@ -117,7 +107,7 @@ class Experiment:
             losses = []
             np.random.shuffle(train_data_idxs)
             for j in range(0, len(train_data_idxs), self.batch_size):
-                data_batch, _ = self.get_batch(er_vocab, train_data_idxs, j)
+                data_batch = train_data_idxs[j:j+self.batch_size]
                 negsamples = np.random.choice(list(self.entity_idxs.values()), 
                                               size=(data_batch.shape[0], self.nneg))
                 
