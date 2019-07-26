@@ -14,7 +14,7 @@ class Data:
                 if i not in self.train_relations]
 
     def load_data(self, data_dir, data_type="train"):
-        with open("%s%s.txt" % (data_dir, data_type), "r") as f:
+        with open("%s%s.txt" % (data_dir, data_type), "r", encoding="utf-8") as f:
             data = f.read().strip().split("\n")
             data = [i.split() for i in data]
             data += [[i[2], i[1]+"_reverse", i[0]] for i in data]

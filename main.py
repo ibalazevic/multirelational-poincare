@@ -107,7 +107,7 @@ class Experiment:
             losses = []
             np.random.shuffle(train_data_idxs)
             for j in range(0, len(train_data_idxs), self.batch_size):
-                data_batch = train_data_idxs[j:j+self.batch_size]
+                data_batch = np.array(train_data_idxs[j:j+self.batch_size])
                 negsamples = np.random.choice(list(self.entity_idxs.values()), 
                                               size=(data_batch.shape[0], self.nneg))
                 
